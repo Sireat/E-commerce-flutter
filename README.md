@@ -15,5 +15,6 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 Look some screenshoot for the app
-![Home Logo](./app/home.png)
+![Home page Logo](./app/home.png)
 ![Detail Page Logo](./app/detail.png)
+![Cart Page Logo](./app/cart.png)

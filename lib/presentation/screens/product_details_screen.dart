@@ -29,6 +29,10 @@ class ProductDetailsScreen extends StatelessWidget {
                 label: 'Add to Cart',
                 onPressed: () {
                   cartProvider.addToCart(product);
+                  // Show a simple feedback (like a SnackBar)
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text('${product.name} added to cart!')),
+                  );
                 },
               );
             },

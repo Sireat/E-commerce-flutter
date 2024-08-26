@@ -30,7 +30,9 @@ class MyApp extends StatelessWidget {
         routes: {
           '/cart': (context) => CartScreen(),
         },
+        debugShowCheckedModeBanner: false,
       ),
     );
+    
   }
 }
